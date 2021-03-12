@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-attributes = ['BIO_ECG', 'fatiguelevel']
+# attributes = ['BIO_ECG', 'fatiguelevel']
 dataset = pd.read_csv('data/行人.csv', names=None)
 print("Building dataset...")
 # print(dataset.head())
